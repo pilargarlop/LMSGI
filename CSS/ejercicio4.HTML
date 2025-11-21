@@ -5,30 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="ejercicio4.css">
+<style >  
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+#gallery-section .section-title {
+    text-align: center;
+    padding: 10px 0 30px;
+    font-size: 2em;
     
+}
+#gallery-section .gallery-list {
+  
+    display: flex;
+   flex-wrap: wrap;
+  justify-content: center;
+    gap: 32px;
+   
+
+}
+
+#gallery-section .gallery-list .gallery-item{
+    width: calc(30%/3 - 32px);
+
+
+}
+#gallery-section .gallery-list .gallery-item .gallery-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+   
+}
+</style>
+
 
 </head>
 <body>
-    <section class="gallery">
-        <h2 class="section-title">Gallery</h2>
+    <section id="gallery-section">
+        <h2 class="section-title">Galeria</h2>
         <div class="gallery-list">
-            <div class="gallery-item">
-                <img src="cap1.jpg" alt="Image 1">
+            <div id="gallery-item">
+                <img class="gallery-image" src="cap1.jpg" alt="Image 1"width="300" height="200">
             </div>
-            <div class="gallery-item">
-                <img src="cap2.jpg" alt="Image 2">
+            <div id="gallery-item">
+                <img class="gallery-image" src="cap2.jpg" alt="Image 2"width="300" height="200">
             </div>
-            <div class="gallery-item">
-                <img src="cap3.jpg" alt="Image 3">
+            <div id="gallery-item">
+                <img class="gallery-image" src="cap3.jpg" alt="Image 3"width="300" height="200">
             </div>
-            <div class="gallery-item">
-                <img src="cap4.jpg" alt="Image 4">
+            <div id="gallery-item">
+                <img class="gallery-image" src="cap4.jpg" alt="Image 4"width="300" height="200">
             </div>
-            <div class="gallery-item">
-                <img src="cap5.jpg" alt="Image 5">
+            <div id="gallery-item">
+                <img class="gallery-image" src="cap5.jpg" alt="Image 5"width="300" height="200">
             </div>
-            <div class="gallery-item">
-                <img src="cap6.jpg" alt="Image 6">
+            <div id="gallery-item">
+                <img class="gallery-image" src="cap6.jpg" alt="Image 6"width="300" height="200">
             </div>
         </div>
     </section>

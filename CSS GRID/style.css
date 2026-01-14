@@ -123,10 +123,63 @@ nav .menu-icon{
     padding-left: 34px;
     border: 34px  #ced4da;
     
-    
-
 }
 
+.contact-container{
+    background-color: #f8f9fa;
+    text-align: center;
+    text-decoration-color: white;
+    
+}
+
+.contact-container form{
+    display: flex;
+    padding: 20px;
+    
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+    padding-top: 34px;
+    padding-bottom: 500px;
+}
+.contact-container form input[type=text]{
+background-color: #f1f3f5;
+border-bottom: 3px solid #32cd32;
+}
+.contact-container form input[type=email]{
+background-color: #f1f3f5;
+border-bottom: 3px solid #8a2be2 ;
+}
+.contact-container form textarea{
+    background-color: #f1f3f5;
+    border-bottom: 3px solid #ffd7ff;
+}
+.contact-container:hover{
+    
+    background-color: #343a40;
+}
+.contact-container form button{
+
+    background-color: #007bff;
+    color: #ffffff;
+    
+}
+
+footer{
+    background-color: #f1f3f5;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    
+}
+.animated-elephant{
+font-size: 2em;
+justify-content: center;
+text-decoration: none;
+
+}
+   
 
 
 

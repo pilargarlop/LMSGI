@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    color:#343a40;
+    font-family: Arial, sans-serif;
+}
+body{
+    font-family: Arial;
+    background-color: #e9ecef;
+
+}
+/* Seccion de Nav. hero Menu */
+nav{
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+    
+    
+}
+  
+
+
+nav ul{
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    list-style-type:none ;
+    
+}
+
+
+nav ul .a-home{
+    border-bottom: 3px solid #007bff;
+     margin-right: 20px;
+     text-decoration: none;
+    
+}
+nav ul .a-services{
+    border-bottom: 3px solid #8a2be2;
+     margin-right: 20px;
+     text-decoration: none;
+    
+    
+}
+nav ul .a-about{
+    border-bottom: 3px solid #32cd32;
+     margin-right: 20px;
+     text-decoration: none;
+    
+    
+}
+nav ul .a-contact{
+    border-bottom: 3px solid #ffd7ff;
+     margin-right: 20px;
+   text-decoration: none;
+     
+}
+nav ul .a-home:hover{
+    color:#007bff;
+   
+}
+nav ul .a-services:hover{
+    color:#007bff;
+   
+}
+nav ul .a-about:hover{
+    color:#007bff;
+   
+}
+nav ul .a-contact:hover{
+    color:#007bff;
+}
+
+
+nav li a{
+     display: flex;
+    background-color: #f8f9fa;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    padding-right:10px ;
+    padding-left:10px ;
+    
+}
+nav .menu-icon{
+    background-color: #ffffff;
+     list-style-type:none ;
+    font-size: 1.6em;
+    
+    
+}
+nav .logo{
+    background-color: #f8f9fa;
+    font-size: 1.6em;
+    text-decoration: none;
+
+ 
+}
+
+nav .menu-icon{
+    background-color: #ffffff;
+     list-style-type:none ;
+     
+
+}
+/* Seccion container. cabecera*/
+
+.cta-container {
+    padding: 110px;
+    color: black;
+    background-color: #e9ecef; 
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    
+}
+.services-container{
+    background-color: #f1f3f5;
+    padding-top: 34px;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 34px;
+    text-align: center;
+    padding-left: 34px;
+    border: 34px  #ced4da;
+    
+}
+/* Seccion container para el contacto*/
+
+.contact-container{
+    background-color: #f8f9fa;
+    text-align: center;
+    text-decoration-color: white;
+    
+}
+
+.contact-container form{
+    display: flex;
+    padding: 20px;
+    
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+    padding-top: 34px;
+    padding-bottom: 500px;
+}
+.contact-container form input[type=text]{
+background-color: #f1f3f5;
+border-bottom: 3px solid #32cd32;
+}
+.contact-container form input[type=email]{
+background-color: #f1f3f5;
+border-bottom: 3px solid #8a2be2 ;
+}
+
+
+
+.contact-container form textarea{
+    background-color: #007bff;
+    border-bottom: 3px solid #ffd7ff;
+}
+
+
+.contact-container:hover{
+    
+    border-color: #343a40;
+
+}
+    
+.contact-container form button:hover{
+
+    background-color: #007bff;
+    color: #ffffff;
+
+    
+}
+    
+/* Seccion footer */
+
+footer{
+    background-color: #f1f3f5;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    
+}
+.animated-elephant{
+font-size: 2em;
+justify-content: center;
+text-decoration: none;
+
+}
+   
+
+
+
+
+

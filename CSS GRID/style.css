@@ -1,137 +1,161 @@
 *{
     margin: 0;
     padding: 0;
-    color:#343a40;
-    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    --primary-blue:#074167;
+    --dark-blue:#143548;
+    --background-light:#ffebd9;
+    --hover-light:#ccb229;
 }
-nav{
-    background-color: #f8f9fa;
-    display: flex;
-    justify-content: space-between;
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+
+.yellowtail-regular {
+  font-family: "Yellowtail", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+  /*header*/
+
+
+header{
+    background-color: #143548;
+    color: white;
+    display: grid;
+    grid-template-columns: auto 1fr;
     align-items: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-right: 10px;
-    padding-left: 10px;
-    
+    padding: 30px 30px;
+    color: white;
     
     
 }
-  
 
-
-nav ul{
-    background-color: #f8f9fa;
+header nav ul{
     display: flex;
+    text-decoration-color: white;
     justify-content: right;
     align-items: right;
-    list-style-type:none ;
-    
+    gap: 20px;
+    list-style-type: none;    
 }
-
-
-nav ul .a-home{
-    border-bottom: 3px solid #007bff;
-     margin-right: 20px;
-     text-decoration: none;
-    
-}
-nav ul .a-services{
-    border-bottom: 3px solid #8a2be2;
-     margin-right: 20px;
-     text-decoration: none;
-    
-    
-}
-nav ul .a-about{
-    border-bottom: 3px solid #32cd32;
-     margin-right: 20px;
-     text-decoration: none;
-    
-    
-}
-nav ul .a-contact{
-    border-bottom: 3px solid #ffd7ff;
-     margin-right: 20px;
-   text-decoration: none;
-     
-}
-nav ul .a-home:hover{
-    color:#007bff;
-   
-}
-nav ul .a-services:hover{
-    color:#007bff;
-   
-}
-nav ul .a-about:hover{
-    color:#007bff;
-   
-}
-nav ul .a-contact:hover{
-    color:#007bff;
-}
-
-
-nav li a{
-     display: flex;
-    background-color: #f8f9fa;
-    padding-top: 25px;
-    padding-bottom: 10px;
-    padding-right:10px ;
-    padding-left:10px ;
-    
-}
-nav .menu-icon{
-    background-color: #ffffff;
-     list-style-type:none ;
-    font-size: 1.6em;
-    
-    
-}
-nav .logo{
-    background-color: #f8f9fa;
-    font-size: 1.6em;
-    text-decoration: none;
-
- 
-}
-
-nav .menu-icon{
-    background-color: #ffffff;
-     list-style-type:none ;
-     
-
-}
-
-.cta-container {
-    padding: 110px;
-    color: black;
-    background-color: #e9ecef; 
-    text-align: center;
-    padding-top: 110px;
-    padding-bottom: 110px;
-    
-}
-.services-container{
-    background-color: #f1f3f5;
-    padding-top: 34px;
-    justify-content: center;
+.header-nav-logo{
     display: flex;
-    padding-bottom: 34px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    list-style-type: none;
+    
+}
+
+header nav ul li a{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    list-style-type: none;
+    gap: 20px;
+    background-color: black;
+    text-decoration-color: white;
+    color: white;
+   
+}
+header nav ul li a{
+    color: #ffebd9;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial, Helvetica,   sans-serif;
+}
+header nav ul li a:hover{
+    color: var(--hover-light);
+    transition: color 0.3s ease;
+}
+
+.input-search{
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    align-items: left;
+}
+
+
+.cta-container{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    background-image: url('gato fondo.jpg');
+    background-position: center;
+    padding: 100px;
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    
+  
+
+    
+}
+.cta-container h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: 'Yellowtail', 'cursive';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    
+}
+.cta-container p{
+    font-size: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+}
+
+.footer-copy{
+    font-size: 14px;
+    margin-top: 20px;
+    color: #ffebd9;
+    background-color: #074167;
+    
     text-align: center;
-    padding-left: 34px;
-    border: 34px  #ced4da;
-    
-    
+    padding: 50px;
 
+}
+
+.footer-menu{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    color:#ffebd9;
+    text-align: column;
+    background-color: #143548;
+    padding: 100px;
+    align-items: center;
+
+}
+.footer-menu a{
+    color: #ffebd9;
+    text-decoration: none;
+    text-align: column;
+    display: flex;
+    justify-content: column;
+    
+    
 }
 
 
 
 
-body{
-    font-family: Arial;
-    background-color: #e9ecef;
 
-}
+
+
+
+
+

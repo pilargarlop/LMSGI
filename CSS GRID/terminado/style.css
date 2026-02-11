@@ -162,7 +162,7 @@ border-bottom: 3px solid #8a2be2 ;
 
 
 .contact-container form textarea{
-    background-color: #007bff;
+    
     border-bottom: 3px solid #ffd7ff;
 }
 
@@ -199,7 +199,43 @@ text-decoration: none;
 }
    
 
+/*MEDIA QUERIES*/
 
+@media (max-width: 768px) {
+    nav ul{
+        display: none;
+    }
 
+    nav ul .a-home{
+        display: none;
+    }
+    nav ul .a-services{
+        display: none;
+    }
+    nav ul .a-about{
+        display: none;
+    }
+    nav ul .a-contact{
+        display: none;
+    }
+    nav button{
+        display: block;
+        background-color: transparent;
+        border: none;
+        font-size: 1.6em;
+        cursor: pointer;
+    }
+     nav .menu-icon{
+        display: block;
+    }
+     nav .logo{
+        display: block;
+    }
+     
+   
+    .services-container div{
+        width: 100%;
+    }
+}
 
 
